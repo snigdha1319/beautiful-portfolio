@@ -140,3 +140,37 @@ ul li a
     padding: 5px;
     border-radius: 5px;
 }
+
+/*what i do section css*/
+.what-i-do-parent
+{
+    margin: 60px auto;
+    text-align: center;
+}
+
+.what-i-do-card-container
+{
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+
+}
+
+.what-i-do-card-container .what-i-do-card
+{
+    padding: 8px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.what-i-do-card-container .what-i-do-card h2
+{
+   margin: 10px, 0;
+}
+
+.what-i-do-card-container .what-i-do-card p 
+{
+  color: #757575 ;
+  font-size: 15px;
+}
