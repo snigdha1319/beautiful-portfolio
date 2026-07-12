@@ -174,3 +174,55 @@ ul li a
   color: #757575 ;
   font-size: 15px;
 }
+
+/*amazing work section style */
+.my-amazing-parent
+{
+    text-align: center;
+}
+
+.gallery
+{
+    margin-top: 20px;
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 250px;
+    grid-template-areas:
+    "two one four"
+    "three one five"
+    "three  six  five";
+}
+
+.gallery img 
+{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+}
+
+.box-1
+{
+    grid-area: one;
+}
+
+.box-2
+{
+    grid-area: two;
+}
+.box-3
+{
+    grid-area: three;
+}
+.box-4
+{
+    grid-area: four;
+}
+.box-5
+{
+    grid-area:five ;
+}
+.box-6
+{
+    grid-area: six;
+}
