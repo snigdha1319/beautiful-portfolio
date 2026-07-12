@@ -226,3 +226,39 @@ ul li a
 {
     grid-area: six;
 }
+
+/*Footer Section*/
+footer
+{
+    text-align: center;
+    margin-top: 70px !important;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    gap: 15px;
+    background-color:#ebe1d9 ;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+footer form
+{
+   padding: 20px;
+}
+
+.footer-left
+{
+    margin: 10px 0;
+}
+
+footer form input, footer form textarea
+{
+    border: none;
+    background-color: white;
+    padding: 8px 15px;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 8px;
+    width: 100%;
+}
