@@ -83,7 +83,7 @@ ul li a
 /*hero section style*/
 .hero-parent-root
 {
-    background-color: #fff8f3;
+    background-color: #cabaaf;
 }
 .hero-parent
 {
@@ -110,4 +110,33 @@ ul li a
 .hero-left-button-parent
 {
     margin-top: 12px;
+}
+
+/*about us css*/
+.about-parent
+{
+    background-color: #f5e8e0;
+    margin: 70px auto;
+    border-radius: 10px;
+    padding: 75px;
+    text-align: center;
+}
+
+.about-parent p
+{
+    margin: 20px 0;
+}
+
+.about-box-parent
+{
+    display: flex;
+    justify-content:space-between;
+    gap: 8px;
+}
+
+.about-box-parent .box 
+{
+    background-color: #f8eae0;
+    padding: 5px;
+    border-radius: 5px;
 }
